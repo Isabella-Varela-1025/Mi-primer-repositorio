@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <h3><center>Formulario de Pedido</center></h3>
+
+
+    <form action="registro">
+        <label for="nombre"><strong>Nombre completo:</strong></label>
+        <input type="text" placeholder="Nombre" name="nombre" required>
+        <p></p>
+
+        <label for="dirección"><strong>Dirección:</strong></label>
+        <input type="text" placeholder="Dirección" name="Dirección" required>
+        <p></p>
+
+        <label for="correo"><strong>Correo electrónico:</strong></label>
+        <input type="email" placeholder="Correo electrónico" name="correo" required>
+        <p></p>
+
+        <label for="teléfono"><strong>Teléfono:</strong></label>
+        <input type="text" placeholder="Teléfono" name="teléfono" required>
+        <p></p>
+
+        <label for="fecha"><strong>Fecha para agendar el pedido:</strong></label>
+        <input type="date" id="fecha" name="fecha" required>
+        <p></p>
+        
+        <label for="Regalo"><strong>Tipo de regalo:</strong></label><br>
+        <input type="radio" id="Ancheta" name="uno" value="Ancheta" required>
+        <label for="Ancheta">Ancheta</label><br>
+        
+        <input type="radio" id="Desayuno" name="uno" value="Desayuno" required>
+        <label for="Desayuno">Desayuno</label><br>
+
+        
+        <input type="radio" id="Decoración fiesta" name="uno" value="Decoración fiesta" required>
+        <label for="Decoración fiesta">Decoración fiesta</label><br>
+
+        
+        <input type="radio" id="Caja decorada" name="uno" value="Caja decorada" required>
+        <label for="Caja decorada">Caja decorada</label><br>
+        
+        <input type="radio" id="Arreglo floral" name="uno" value="Arreglo floral" required>
+        <label for="Arreglo floral">Arreglo floral</label><br>
+
+        
+        <input type="radio" id="Peluches" name="uno" value="Peluches" required>
+        <label for="Peluches">Peluches</label><br>
+
+        
+        <input type="radio" id="Otro" name="uno" value="Otro" required>
+        <label for="Otro">Otro</label><br>
+
+        <div  class="contenedor">
+
+        <p><strong>Anexa tu idea de regalo</strong></p> <button type="submit"  class="Anexar">Anexar</button>
+
+        </div>
+
+        <label for="Dulces para el regalo"><strong>Dulces para el regalo:</strong></label><br>
+        <input type="checkbox" id="Chocolates" name="Chocolates" value="Chocolates" required>
+        <label for="Chocolates">Chocolates</label><br>
+
+        <input type="checkbox" id="Gomitas" name="Gomitas" value="Gomitas" required>
+        <label for="Gomitas">Gomitas</label><br>
+
+        <input type="checkbox" id="Bom bom bum" name="Bom bom bum" value="Bom bom bum" required>
+        <label for="Bom bom bum">Bom bom bum</label><br>
+
+        <input type="checkbox" id="Quipitos" name="Quipitos" value="Quipitos" required>
+        <label for="Quipitos">Quipitos</label><br>
+
+        <input type="checkbox" id="Chokis" name="Chokis" value="Chokis" required>
+        <label for="Chokis">Chokis</label><br><br>
+        
+        <label for="suggestion"><strong>¿Cuál dulce deseas?</strong></label>
+        <input name="suggestion" id="suggestion" placeholder="Escribe el dulce que deseas aquí"> </input><br><br>
+
+        <div class="contenedor">
+        
+        <input type="range" id="range" name="range"  value="range" required>
+        <label for="Nivel de satisfacción"><strong>Califica nuestra eficiencia</strong></label><br><br>
+        <button type="submit" class="Enviar">Enviar</button><br><br>
+
+        </div>
+
+       
+        
+        <button type="submit" class="Registrar">Registrar</button>
+        <button type="submit" class="Cancelar">Cancelar</button>
+    </form>
+    
+</body>
+</html>

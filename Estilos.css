@@ -1,0 +1,60 @@
+body{
+    background: beige;
+}
+header{
+    background: palevioletred;
+    color: beige;
+
+}
+
+h3{
+    background: #9d0c85;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+form{
+   
+    background-color: #fab8d8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 400px;    /*limita el ancho del cuadro*/
+    border: 2px solid #ccc; 
+    margin: auto;
+}
+.Anexar:hover{
+    background-color: rgb(68, 136, 218) ;
+    text-align: right;
+}
+.Registrar:hover{
+    background: #28c08d;
+}
+.Cancelar:hover{
+    background: red;
+}
+.Enviar:hover{
+    background: rgb(68, 136, 218);
+    text-align: right;
+   
+}
+button{
+ 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.contenedor{
+    text-align: center;
+}
+img{
+    text-align: center;
+}

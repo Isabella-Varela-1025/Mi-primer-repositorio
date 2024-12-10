@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #9d0c85;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    display: flex; /* hace que los tamaños y posiciones se ajusten automáticamente*/
+}
+
+.producto {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* es para agregar sombras al contenido*/
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.producto p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer; /*es para que el cursor cambie de forma a una mano*/
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.contacto {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #9d0c85;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    position: fixed; /* es para que el footer quede fijo en la posición donde se encuentra*/
+    width: 100%;
+    bottom: 0; /*este es para que se posicione al borde infeior*/
+    margin-top: auto;
+}
